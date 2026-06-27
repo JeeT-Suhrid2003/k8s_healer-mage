@@ -1,5 +1,7 @@
 # Self-Healing Kubernetes Tools
 
+![Demo screenshot](Screenshot 2026-06-27 205306.png)
+
 Small helper scripts for a demo SRE agent and notifier that interact with a remote agent and a Kubernetes cluster.
 
 **Files**
@@ -57,7 +59,7 @@ kubectl logs deploy/broken-nginx -n default
 
 **Notes**
 
-- `antigravity.py` has robust stream handling and expects the GenAI client to provide an iterable/stream of chunks. If you see errors mentioning a non-callable stream, ensure the client object returned by `client.interactions.create(..., stream=True)` is iterable or provides a `.stream()` method.
+- `antigravity.py` has robust stream handling and expects the GenAI client to provide an iterable/stream of chunks. If you see errors mentioning a non-callable stream, ensure the client object ret[...]
 - If you want, I can add a `requirements.txt` file or pin exact package names/versions.
 
 **Next steps**
