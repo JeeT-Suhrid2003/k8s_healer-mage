@@ -5,7 +5,7 @@ from google import genai
 
 
 def main():
-    api_key = "AIzaSyBSedAgAZCmRK257BKfiXvQBWbkznS9nes"
+    api_key = ""
     if not api_key:
         print(
             "Error: API key not found. Set the GENAI_API_KEY or GOOGLE_API_KEY environment variable.",
