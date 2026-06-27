@@ -70,4 +70,4 @@ kubectl logs deploy/broken-nginx -n default
 ---
 
 Created for the `self_healing_k8s` workspace.
-![Demo screenshot](Screenshot 2026-06-27 205306.png)
+![Demo screenshot]("Screenshot 2026-06-27 205306.png")
