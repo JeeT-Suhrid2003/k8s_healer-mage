@@ -1,6 +1,6 @@
 # Self-Healing Kubernetes Tools
 
-![Demo screenshot](Screenshot 2026-06-27 205306.png)
+![Demo screenshot](Screenshot_2026-06-27_205306.png)
 
 Small helper scripts for a demo SRE agent and notifier that interact with a remote agent and a Kubernetes cluster.
 
@@ -71,4 +71,4 @@ kubectl logs deploy/broken-nginx -n default
 
 Created for the `self_healing_k8s` workspace.
 
-![Demo screenshot]("Screenshot_2026-06-27_205306.png")
+![Demo screenshot](Screenshot_2026-06-27_205306.png)
